@@ -42,8 +42,7 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions"
                express-session
                 connect-session-sequelize
 
-
-     ```
+                   ```
 
    ## Usage:
 
@@ -64,4 +63,4 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions"
   [More on Contribution Guidelines](https://github.com/verokoles/readme-generator/blob/f57cf6a98bf276960885496059df4b039247c985/contributing.md)
 
 ## Heroku:heavy_plus_sign:
-   See my repo deployed to [Heroku.com]()
+   See my repo deployed to [Heroku.com](https://git.heroku.com/tech-blog-veronica.git)
