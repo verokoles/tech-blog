@@ -7,11 +7,29 @@
     "express": "^4.18.1",
     "express-handlebars": "^6.0.5",
     "express-session": "^1.17.2",
-    "heroku": "^7.33.3",
+    "heroku": "^7.30.1",
     "mysql2": "^2.3.3",
     "nodemon": "^2.0.16",
     "package": "^1.0.1",
     "prettier": "^2.6.2",
     "sequelize": "^6.19.0"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "tech-blog",
+  "description": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)\r ## Purpose:exclamation:\r To build a CMS-style blog site similar to a Wordpress site, <br>\r where developers can publish their blog posts <br>\r and comment on other developers’ posts as well.",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/verokoles/tech-blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/verokoles/tech-blog/issues"
+  },
+  "homepage": "https://github.com/verokoles/tech-blog#readme"
 }

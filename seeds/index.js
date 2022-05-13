@@ -4,6 +4,7 @@ const seedComments = require("./comment-seeds");
 
 const sequelize = require("../config/connection");
 
+// use of async and await to 
 const seedAll = async () => {
   await sequelize.sync({ force: true });
   await seedUsers();
