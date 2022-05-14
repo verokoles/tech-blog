@@ -1,4 +1,4 @@
-const { Sequelize, Model, DataTypes } = require('sequelize');
+const { Model, DataTypes } = require('sequelize');
 const bcrypt = require('bcrypt');
 const sequelize = require('../config/connection');
 
@@ -27,9 +27,16 @@ User.init(
       validate: {
         len: [4]
       }
+    },
+    email:  {
+    type:  DataTypes.STRING,
+    allowNull: false,
+    unique: true,
+    validate: {
+      isEmail: true
     }
   },
-  {
+
     hooks: {
       // set up beforeCreate lifecycle "hook" functionality
       beforeCreate: async (newUserData) => {
@@ -45,7 +52,7 @@ User.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'User'
+    modelName: 'user'
   }
 );
 

@@ -1,7 +1,11 @@
-<article class="post">
 
-    {{#each posts as |post| }}
-        {{> post-info post}}
-    {{/each}}
+{{#each posts as |post|}}
 
-</article>
+{{> post-info post }}
+</div>
+
+{{else}}
+<h6 class="pb-4 has-text-centered is-italic">
+  No Current Posts</h6>
+  
+{{/each}}

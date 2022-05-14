@@ -1,37 +1,44 @@
-const express = require("express");
-const routes = require("./controllers");
+const express = require('express');
+const routes = require('./controllers');
+const sequelize = require('./config/connection');
+const path = require('path');
 
-const sequelize = require("./config/connection");
-const path = require("path");
+const helpers = require('./utils/helpers');
 
-const helpers = require("./utils/helpers");
-const exphbs = require("express-handlebars");
+const exphbs = require('express-handlebars');
 const hbs = exphbs.create({ helpers });
-const session = require("express-session");
+
+const session = require('express-session');
+
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-const SequelizeStore = require("connect-session-sequelize")(session.Store);
+const SequelizeStore = require('connect-session-sequelize')(session.Store);
+// function for logging out after idle session
 const sess = {
-  secret: "Super secret secret",
-  cookie: { maxAge: 36000 },
-  resave: false,
-  saveUninitialized: true,
+  secret: 'secret-XXXX',
+  cookie: {
+        // Session expires in 15 minutes
+        expires: 15 * 60 * 1000
+  },
+  resave: true, rolling: true, saveUninitialized: true,
   store: new SequelizeStore({
-    db: sequelize,
+    db: sequelize
   }),
 };
 
-app.use(express.json());
 app.use(session(sess));
-app.use(routes);
+app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(path.join(__dirname, 'public')));
 
-// handlebars
-app.engine("handlebars", hbs.engine);
-app.set("view engine", "handlebars");
+// handlebarsssss
+app.engine('handlebars', hbs.engine);
+app.set('view engine', 'handlebars');
 
-sequelize.sync({ force: true }).then(() => {
-  app.listen(PORT, () => console.log("Now listening"));
+app.use(routes);
+
+// turn on connection to db and server
+sequelize.sync({ force: false }).then(() => {
+  app.listen(PORT, () => console.log('Now listening'));
 });

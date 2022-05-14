@@ -53,6 +53,7 @@ router.get('/:id', (req, res) => {
     });
 });
 
+
 router.post('/', (req, res) => {
   // expects {username: 'Lernantino', email: 'lernantino@gmail.com', password: 'password1234'}
   User.create({

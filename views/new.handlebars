@@ -1,15 +1,24 @@
-<div class="card">
-    <h3 class="card-header">Create New Post</h3>
-    <form class="card-body new-post-form" id="new-post-form">
-        <label for="post-title" class="form-label">Title</label>
-        <input type="text" id="post-title" name="post-title" class="form-input" />
+<section>
+    <a href="/dashboard" 
+    class="is-pulled-right"> &larr; Dashboard</a>
+  <h2 class="title">New Post</h2><hr>
 
+  <form class="new-post-form">
+    <div>
+      <label for="post-title">Title:</label>
+      <input class="input" type="text" 
+      placeholder="title of blog..."
+      id="post-title" name="post-title" />
+    </div> 
+    <div>
+      <label for="post-content">Post Content</label>
+      <input class="textarea is-large" 
+      placeholder="blog content..."
+      id="post-content" name="post-content" />
+    </div>
 
-        <label class="form-label" for="content">Content</label>
-        <input id="content" name="content" class="form-input" />
-
-        <button type="submit" class="btn">Create</button>
-    </form>
-</div>
+    <button type="submit" class="button is-primary is-pulled-right">Create</button>
+  </form>
+</section>
 
 <script src="/javascript/add-post.js"></script>

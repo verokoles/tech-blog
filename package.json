@@ -8,6 +8,7 @@
     "express-handlebars": "^6.0.5",
     "express-session": "^1.17.2",
     "heroku": "^7.30.1",
+    "jest": "^28.1.0",
     "mysql2": "^2.3.3",
     "nodemon": "^2.0.16",
     "package": "^1.0.1",
@@ -21,7 +22,6 @@
   "description": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)\r ## Purpose:exclamation:\r To build a CMS-style blog site similar to a Wordpress site, <br>\r where developers can publish their blog posts <br>\r and comment on other developers’ posts as well.",
   "version": "1.0.0",
   "main": "server.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/verokoles/tech-blog.git"
