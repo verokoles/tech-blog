@@ -14,8 +14,9 @@ I WANT a CMS-style blog site <br>
 SO THAT I can publish articles, blog posts, and my thoughts and opinions"
 
 ![SCREENSHOT OF BLOG FRONT PAGE]()
-![SCREENSHOT OF ]()
-![SCREENSHOT OF ]()
+![SCREENSHOT OF SIGNUP]()
+![SCREENSHOT OF POSTS]()
+![SCREENSHOT OF EDITED POSTS]()
 
    ## Table of Contents::mag:
    1. [ Installation ](#installation)
@@ -29,27 +30,26 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions"
    To install dependancies, run the following commands:
 
      ```
-     npm install:
-      express
-       node
-        heroku
-         sequelize
-          mysql2
-           express-handlebars
-            init
-             dotenv
-              bcrypt
-               express-session
-                connect-session-sequelize
+    npm install:
+    express
+    node
+    heroku
+    sequelize
+    mysql2
+    express-handlebars
+    init
+    dotenv
+    bcrypt
+    express-session
+    connect-session-sequelize
+      ```
 
-                   ```
-
-   ## Usage:
+## Usage:
 
     For usage, please make sure to add comments and submit merge requests to Github.com.
 
 
-   ## License: 
+## License: 
 
      Apache-2.0 
 
@@ -58,9 +58,12 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions"
 
   
 
-   ## Contributing:
+## Contributing:
    Please be kind and professional when adding to or accessing this repository. Thank you!
   [More on Contribution Guidelines](https://github.com/verokoles/readme-generator/blob/f57cf6a98bf276960885496059df4b039247c985/contributing.md)
 
+
+
 ## Heroku:heavy_plus_sign:
+   
    See my repo deployed to [Heroku.com](https://git.heroku.com/tech-blog-veronica.git)

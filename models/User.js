@@ -29,14 +29,15 @@ User.init(
       }
     },
     email:  {
-    type:  DataTypes.STRING,
+    type: DataTypes.STRING,
     allowNull: false,
     unique: true,
     validate: {
       isEmail: true
     }
+      }
   },
-
+  {
     hooks: {
       // set up beforeCreate lifecycle "hook" functionality
       beforeCreate: async (newUserData) => {
