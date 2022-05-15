@@ -64,4 +64,4 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions"
 
 ## Heroku:heavy_plus_sign:
    
-   See my repo deployed to [Heroku.com](https://git.heroku.com/tech-blog-veronica.git)
+   See my repo deployed to [Heroku.com](https://tech-blog-veronica.herokuapp.com/)
