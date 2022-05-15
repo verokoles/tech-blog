@@ -11,7 +11,7 @@ and comment on other developers’ posts as well.
 I WANT a CMS-style blog site <br>
 SO THAT I can publish articles, blog posts, and my thoughts and opinions"
 
-![SCREENSHOT OF BLOG HOME PAGE](png/home-page.png)
+![SCREENSHOT OF BLOG HOME PAGE](png/homepage.png)
 ![SCREENSHOT OF LOGIN](png/sign-in.png)
 ![SCREENSHOT OF SIGNUP](png/signup.png)
 
