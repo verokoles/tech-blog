@@ -6,8 +6,6 @@ To build a CMS-style blog site similar to a Wordpress site, <br>
 where developers can publish their blog posts <br>
 and comment on other developers’ posts as well.
 
-![SCREENSHOT ]()
-
 ### USER STORY: <br>
 "AS A developer who writes about tech <br>
 I WANT a CMS-style blog site <br>
@@ -15,6 +13,7 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions"
 
 ![SCREENSHOT OF BLOG HOME PAGE](png/home-page.png)
 ![SCREENSHOT OF LOGIN](png/sign-in.png)
+![SCREENSHOT OF SIGNUP](png/signup.png)
 
    ## Table of Contents::mag:
    1. [ Installation ](#installation)
