@@ -13,10 +13,8 @@ and comment on other developers’ posts as well.
 I WANT a CMS-style blog site <br>
 SO THAT I can publish articles, blog posts, and my thoughts and opinions"
 
-![SCREENSHOT OF BLOG FRONT PAGE]()
-![SCREENSHOT OF SIGNUP]()
-![SCREENSHOT OF POSTS]()
-![SCREENSHOT OF EDITED POSTS]()
+![SCREENSHOT OF BLOG HOME PAGE](png/home-page.png)
+![SCREENSHOT OF LOGIN](png/sign-in.png)
 
    ## Table of Contents::mag:
    1. [ Installation ](#installation)
@@ -59,8 +57,9 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions"
   
 
 ## Contributing:
-   Please be kind and professional when adding to or accessing this repository. Thank you!
+    Please be kind and professional when adding to or accessing this repository. Thank you!
   [More on Contribution Guidelines](https://github.com/verokoles/readme-generator/blob/f57cf6a98bf276960885496059df4b039247c985/contributing.md)
+
 
 
 
