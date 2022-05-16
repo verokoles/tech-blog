@@ -16,6 +16,7 @@ async function signupFormHandler(event) {
         headers: { 'Content-Type': 'application/json' }
       });
       // see response for errors
+       console.log('signup', response);
       if (response.ok) {
         console.log('success');
         document.location.replace('/dashboard');
