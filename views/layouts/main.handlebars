@@ -17,7 +17,7 @@
             {{#if loggedIn}}
             <a href="/" class="navbar-item is-hoverable pt-1">Home</a>
             <a href="/dashboard" class="navbar-item is-hoverable pt-1">Dashboard</a>
-            <a href="/dashboard/create/" class="navbar-item is-hoverable pt-1 mr-4">Create Post</a>
+            <a href="/dashboard/new/" class="navbar-item is-hoverable pt-1 mr-4">Create Post</a>
             <button id="logout" class="button is-danger">Logout</button>
             {{else}}
             <a href="/" class="navbar-item is-hoverable pt-1">Home</a>
@@ -36,7 +36,7 @@
             <p>
             <a href="/">Home</a>{{#if loggedIn}} | 
             <a href="/dashboard/">Dashboard</a> | 
-            <a href="/dashboard/create/">Create New Post</a>
+            <a href="/dashboard/new/">Create New Post</a>
             {{else}}
              | <a href="/login/">Login</a>
             {{/if}}
